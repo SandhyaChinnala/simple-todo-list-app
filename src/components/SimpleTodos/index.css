@@ -1,0 +1,42 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #ffc2a0;
+}
+
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 15px;
+  /* width: 50%; */
+  max-width: 1200px;
+  flex-shrink: 1;
+}
+
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0;
+}
